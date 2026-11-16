@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Arquitectura de SATQ Digital</title>
+  <desc id="desc">Flujo del prototipo: datos simulados de quebradas, motor de riesgo, panel territorial y alertas.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e9f1ec"/><stop offset="1" stop-color="#f6f2ea"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0l10 5-10 5" fill="none" stroke="#146e73" stroke-width="2"/></marker>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g fill="none" stroke="#c5d8d2" stroke-width="1"><path d="M0 105h1200M0 210h1200M0 315h1200M0 420h1200M0 525h1200M0 630h1200"/><path d="M100 0v675M250 0v675M400 0v675M550 0v675M700 0v675M850 0v675M1000 0v675M1150 0v675"/></g>
+  <text x="72" y="77" fill="#146e73" font-family="Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="4">SATQ DIGITAL</text>
+  <text x="72" y="120" fill="#4e6668" font-family="Arial,sans-serif" font-size="22">Sistema de Alerta Temprana de Quebradas · prototipo de demostración</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="64" y="240" width="232" height="196" rx="20" fill="#fffdfa" stroke="#a9c9c0" stroke-width="3"/>
+    <circle cx="105" cy="281" r="15" fill="#a56b20"/><text x="95" y="288" fill="white" font-size="16" font-weight="700">1</text>
+    <text x="91" y="336" fill="#172a2d" font-size="25" font-weight="700">Datos simulados</text><text x="91" y="373" fill="#516267" font-size="18">Lluvia y quebradas</text><text x="91" y="405" fill="#8e5b50" font-size="16">Escenario de prueba</text>
+    <rect x="354" y="240" width="232" height="196" rx="20" fill="#fffdfa" stroke="#a9c9c0" stroke-width="3"/>
+    <circle cx="395" cy="281" r="15" fill="#146e73"/><text x="385" y="288" fill="white" font-size="16" font-weight="700">2</text>
+    <text x="381" y="336" fill="#172a2d" font-size="25" font-weight="700">Motor de riesgo</text><text x="381" y="373" fill="#516267" font-size="18">Umbrales configurables</text><text x="381" y="405" fill="#516267" font-size="16">Bajo · Moderado · Alto</text>
+    <rect x="644" y="240" width="232" height="196" rx="20" fill="#fffdfa" stroke="#a9c9c0" stroke-width="3"/>
+    <circle cx="685" cy="281" r="15" fill="#146e73"/><text x="675" y="288" fill="white" font-size="16" font-weight="700">3</text>
+    <text x="671" y="336" fill="#172a2d" font-size="25" font-weight="700">Panel territorial</text><text x="671" y="373" fill="#516267" font-size="18">Mapa y gráficos</text><text x="671" y="405" fill="#516267" font-size="16">Vista de monitoreo</text>
+    <rect x="934" y="240" width="202" height="196" rx="20" fill="#fffdfa" stroke="#a9c9c0" stroke-width="3"/>
+    <circle cx="975" cy="281" r="15" fill="#8e5b50"/><text x="965" y="288" fill="white" font-size="16" font-weight="700">4</text>
+    <text x="961" y="336" fill="#172a2d" font-size="25" font-weight="700">Alertas</text><text x="961" y="373" fill="#516267" font-size="18">Gestión y avisos</text><text x="961" y="405" fill="#516267" font-size="16">Modo simulado</text>
+    <path d="M303 337h39M593 337h39M883 337h39" stroke="#146e73" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="72" y="522" width="1056" height="78" rx="15" fill="#10292d"/>
+    <text x="103" y="555" fill="#dcece7" font-size="20" font-weight="700">PROTOTIPO VERIFICABLE</text><text x="103" y="584" fill="#aecac2" font-size="17">Código, pruebas y documentación disponibles en el repositorio de SATQ Digital.</text>
+  </g>
+</svg>
